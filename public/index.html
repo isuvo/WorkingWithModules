@@ -197,13 +197,13 @@ there in the future</p>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/app.js"></script>
+  <script src="js/app.js" type="module"></script>
 
 <script>
 
  setTimeout(()=>console.log(data.listItems),1000);  
 
-jQuery(document).ready(function(){
+ jQuery(document).ready(function(){
 
  // alert("wow");
   //  jQuery("header").addClass("fixed");
@@ -211,7 +211,6 @@ jQuery(document).ready(function(){
 		//alert("The paragraph was clicked.");
 		jQuery("header").toggleClass("fixed");
 	});
-
 
 });
 
